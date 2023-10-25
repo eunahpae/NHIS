@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국민건강 보험</title>
+
+    <style>
+        *{margin: 0; padding: 0;}
+
+        /* 서체 지정은 기본서체로 body 요소한테 지정 */
+        body{color:#222;
+        font-family: '나눔고딕',sans-serif;
+        font-size: 1rem;
+        }
+
+        /* 링크 텍스트의 기본 스타일 지정 */
+        a{text-decoration: none;}
+
+        .quicklink1{
+            width: 350px ;
+            height: 320px ;
+            background-color: #ef6266;
+            box-sizing: border-box;
+            margin: 30px 40px;
+            border-radius: 50px 20px 20px 20px;
+            padding: 30px 0;
+            display: inline-block;
+        }
+
+        .quicklink1 li{
+            padding: 1rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            list-style: none;            
+            background-position: 92% 50%;
+            background-repeat: no-repeat;
+        }
+
+        .quicklink1 li:first-child{background-image: url(images/icon_news_area_01.png);}
+        .quicklink1 li:nth-child(2){background-image: url(images/icon_news_area_02.png);}
+        .quicklink1 li:nth-child(3){background-image: url(images/icon_news_area_03.png);}
+        .quicklink1 li:nth-child(4){background-image: url(images/icon_news_area_04.png);}
+        .quicklink1 li:nth-child(5){background-image: url(images/icon_news_area_05.png); 
+         border-bottom: none;} /* 하단 보더선 제거 */
+
+        .quicklink1 li a{
+            color: #fff;
+            font-weight: 500;
+            display: block;
+        }
+
+        
+        
+        .quicklink2{
+            width: 350px ;
+            height: 320px ;
+            background-color: #2FA298;
+            box-sizing: border-box;
+            margin: 30px 40px;
+            border-radius: 20px 20px 50px 20px;
+            padding: 30px 0;
+            background-image: url(images/bg-guarantee.png);
+            background-position: 100% 100%;
+            background-repeat: no-repeat;
+            display: inline-block;            
+        }
+
+        .quicklink2 li{
+            padding: 1rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            list-style: none;            
+            background-position: 92% 50%;
+            background-repeat: no-repeat;
+        }
+
+        .quicklink2 li a{
+            color: #fff; 
+            font-weight: 500; 
+            display: block;
+        }
+        .quicklink2 li:nth-child(4){border-bottom: none;}
+        .quicklink2 li:nth-child(4) a dl dd{font-size: 0.9rem; font-weight: 300; padding: 20px 0;}
+
+
+        .content{
+            width: 900px ;
+            height: 430px ;
+            box-sizing: border-box;
+            margin:40px;
+        }
+        
+        .title-1{  
+            font-size: 1.8rem;
+            margin-bottom: 40px;        
+        }
+
+        .title-2{            
+            font-size: 1.2rem;
+            padding-left: 1.8rem;
+            margin-bottom: 15px;
+            background-image: url(images/ico-bullet.png);
+            background-repeat: no-repeat;
+            background-position: 0%;
+        }
+
+
+
+        .subcontent{
+            width: 900px ;
+            height: 225px ;
+            background-color: #FFF2F2;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+            border-radius: 10px 50px 10px 10px;
+            padding: 35px 30px;
+            display: inline-block;
+            background-image: url(images/bg-about-ci.png);
+        }
+
+        .subcontent p:first-child{
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .subcontent p:nth-child(2){
+            color: rgb(196, 8, 8);
+            font-size: 0.95rem;
+            font-weight: 500;
+            margin: 5px 0;           
+        }
+
+        .subcontent p:nth-child(3){
+            font-size: 0.95rem;
+            line-height: 1.5em;            
+        }
+
+        .content a{
+            background-color: #2c2a2a;
+            padding: 10px 15px;
+            box-sizing: border-box;
+            color: #fff;
+            border-radius: 5px;
+           
+        }
+
+        .btnwrap{
+            text-align: right;
+            font-size: 0.9rem;            
+        }
+
+
+
+        
+        
+    </style>
+</head>
+
+<body>
+    <ul class="quicklink1">
+     <li><a href="https://www.nhis.or.kr/nhis/together/wbhaea01000m01.do">공지사항</a></li>
+     <li><a href="https://www.nhis.or.kr/nhis/together/wbhaea02700m01.do">채용공고</a></li>
+     <li><a href="https://www.nhis.or.kr/nhis/together/wbhaea01600m01.do">보도자료</a></li>
+     <li><a href="https://www.nhis.or.kr/nhis/together/wbhaea02200m01.do">입찰공고</a></li>
+     <li><a href="https://www.nhis.or.kr/announce/index.do" title="새창열림" target="_blank">경영공시</a></li>
+    </ul>
+    
+    <ul class="quicklink2">
+     <li><a href="https://www.nhis.or.kr/nhis/together/insertOpenInfoView.do">정보공개청구</a></li>
+     <li><a href="https://www.nhis.or.kr/nhis/together/retrieveOpenList.do">사전정보목록</a></li>
+     <li><a href="https://www.nhis.or.kr/nhis/policy/wbhadd09000m01.do">보장성강화</a></li>
+     <li>
+      <a href="https://www.nhis.or.kr/nhis/about/wbhafb07700m01.do">
+        <dl>
+          <dt>건강보험연구원</dt>
+          <dd>Health Insurance Research<br>Institute(HIRI)</dd>
+        </dl>
+      </a>
+     </li>
+    </ul>
+
+<hr>
+<!-- https://www.nhis.or.kr/nhis/about/wbhafa01900m01.do 의 공단 소개 부분은 스스로 해봅니다. -->
+  <div class="content">
+      <h3 class="title-1">CI</h3>
+      <h4 class="title-2">심벌마크 &amp; 색상</h4>
+      <div class="subcontent">
+          <p>국민건강보험공단의 심벌마크는</p>
+          <p>Happiness is in your heart</p>
+          <p>하트를 감싸안은 붉은 원은 신뢰와 사랑으로 국민의 건강과 안녕을 보살피는 국민건강 보험의<br>역할을 상징하며, 건강한 생활과 높은 삶의 질로 확산되는 행복의 복합적 표현이고, 손가락으로<br> 원을 그린 듯한 하나의 획으로 권위적 공기관이 아닌 따뜻한 커뮤니케이션으로 국민과 소통의<br>거리가 밀접한 새로운 공단의 모습을 나타냄
+          </p>
+      </div>
+      <div class="btnwrap"><a href="https://www.nhis.or.kr/static/html/wbdf/a/CI.zip">CI 다운로드</a></div>
+  </div>
+    
+</body>
+</html>
